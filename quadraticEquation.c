@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <math.h>
 
+double my_fabs(double x){
+    return (x < 0) ? -x : x;
+}
+
 int main(void){
    double a, b, c, d, x1, x2;
    int intX1, intX2;

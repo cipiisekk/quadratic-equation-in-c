@@ -4,8 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-
-int main(){
+int main(void){
    double a, b, c, d, x1, x2;
    int intX1, intX2;
 
